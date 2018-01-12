@@ -1,6 +1,7 @@
 # Notes so far:
 - Nothing
 - My merge request 1
+- My merge request 2
 
 
 
