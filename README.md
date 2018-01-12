@@ -22,10 +22,12 @@ git commit -m "my cool message"
 # Push your branch to github
 git push origin MY_COOL_BRANCH_NAME
 
-# Set the upstream path
-git ...
 # checkout master
 git checkout master
-# Update from jordan
-git pull upstream master
+# Set the upstream path
+git remote add upstream git@github.com:SilexOne/nimbus.git
+# git info from branches
+git fetch upstream
+# git the info
+git pull --rebase upstream master
 ```
